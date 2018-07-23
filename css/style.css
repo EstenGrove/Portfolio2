@@ -1,0 +1,107 @@
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Exo', sans-serif;
+
+
+*/
+
+
+html {
+  font-size: 62.5%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+}
+.title a {
+  text-decoration: none;
+  font-family: 'Varela Round', sans-serif;
+  
+}
+.title-black {
+  color: black;
+}
+.title-blue {
+  color: #5CBBEA;
+}
+
+
+.navbar {
+  position: absolute;
+  text-align: center; 
+  /* Give a bit a centering */
+  left: 0;
+  width: 100%;
+}
+.navbar ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.8rem;
+}
+.navbar ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.navbar ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  color: #000;
+  font-family: 'Varela Round', sans-serif;
+  /* this isn't really needed but gives a bit of padding */
+  display: block;
+}
+.navbar ul li a:hover {
+  color: orangered;
+}
+
+.main {
+  position: relative;
+  top: 0;
+  text-align: center;
+  margin-top: 24rem;
+}
+.section1 {
+  width: 100vw;
+}
+.section1 h2 {
+  
+}
+.center-title .title-main {
+  display: block;
+  font-size: 4rem;
+  font-family: 'Varela Round', sans-serif;
+}
+.center-title .title-sub {
+  display: block;
+  font-size: 2rem;
+  font-family: 'Exo', sans-serif;
+}
+.title-sub .var1 {
+  color: #5CBBEA;
+}
+.title-btn {
+  background-color: #5CBBEA;
+  color: #eee;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  padding: .5rem 2.2rem;
+  border-radius: 1.5rem;
+  box-shadow: .1rem 1.2rem 1.6rem -.2rem rgba(0,0,0,0.45);
+}
+.title-btn:hover {
+  background-color: #2196D1;
+  box-shadow: .1rem 1.2rem 1.6rem -.2rem rgba(0,0,0,0.35);
+  color: #eee;
+  cursor: pointer;
+ 
+}
